@@ -1,0 +1,12 @@
+{
+  "model_dir": "outputs/low20/RLpro/ppo_best",
+  "outdir": "outputs/low20/result/RLpro",
+  "num_seqs": 519,
+  "max_new_tokens": 28,
+  "temperature": 1.15,
+  "top_p": 0.9,
+  "batch_size": 16,
+  "repetition_penalty": 1.05,
+  "resample_tries": 3,
+  "seed": 42
+}

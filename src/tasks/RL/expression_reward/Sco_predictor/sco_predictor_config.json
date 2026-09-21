@@ -1,0 +1,8 @@
+{
+  "pred_dir": "src/tasks/RL/expression_reward/Sco_predictor/predictor_result",
+  "input_csv": "outputs/Scoli/Result/base/CSV/generated.csv",
+  "output_csv": "outputs/Scoli/Result/base/Scoli_with_pred.csv",
+  "seq_col": "sequence",
+  "batch_size": 32,
+  "max_length": 200
+}

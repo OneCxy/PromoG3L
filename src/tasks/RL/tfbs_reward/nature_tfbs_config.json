@@ -1,0 +1,6 @@
+{
+  "seq_csv": "datasets/Scoli/high_60_100.csv",
+  "meme": "datasets/Scoli/Scoli_meme.txt",
+  "global_out_csv": "datasets/Scoli/highscoli_nature_tfbs.csv",
+  "global_out_npy": "datasets/Scoli/highscoli_nature_tfbs.npy"
+}

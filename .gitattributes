@@ -1,0 +1,2 @@
+src/tasks/RL/expression_reward/Sco_predictor/predictor_result/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+src/tasks/RL/expression_reward/Ecoli_predictor/LSTMModel.pth filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,6 @@
+{
+  "label_transform": "zscore",
+  "mu": 1.3144885218823292,
+  "sd": 3.0449576842246238,
+  "label_col": "activity"
+}

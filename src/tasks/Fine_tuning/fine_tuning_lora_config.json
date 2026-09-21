@@ -1,0 +1,23 @@
+{
+  "wandb_disabled": true,
+  "train_csv": "datasets/ecoli/train.csv",
+  "validation_csv": "datasets/ecoli/validation.csv",
+  "model_name": "GENERator-v2-prokaryote-1.2b-base",
+  "output_dir": "outputs/ecoli/base",
+  "batch_size": 2,
+  "gradient_accumulation_steps": 16,
+  "learning_rate": 0.0001,
+  "num_train_epochs": 15,
+  "max_length": 30,
+  "pad_to_multiple_of_six": true,
+  "val_ratio_when_missing": 0.05,
+  "use_lora": true,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_target_modules": "q_proj,k_proj,v_proj,o_proj,up_proj,down_proj",
+  "merge_lora_on_save": true,
+  "monitor_interval": 120,
+  "early_stopping_patience": 4,
+  "early_stopping_threshold": 0.0
+}

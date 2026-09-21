@@ -1,0 +1,22 @@
+{
+  "model_name": "CODE/ProkBert",
+  "freeze_encoder": true,
+  "pooling": "mean_last4",
+  "cnn_kernels": "3,5,7,11,15,21,35",
+  "cnn_channels": 128,
+  "cnn_pool": "maxmean",
+  "lse_tau": 1.0,
+  "head_hidden": 512,
+  "head_dropout": 0.05,
+  "loss_type": "huber",
+  "huber_delta": 1.0,
+  "label_transform": "zscore",
+  "label_mu": 1.3144885218823292,
+  "label_sd": 3.0449576842246238,
+  "data_csv": "datasets/Scoli/Scoli_165.csv",
+  "split_dir": "outputs/Scoli/Final",
+  "val_ratio": 0.1,
+  "split_seed": 42,
+  "dedup_policy": "mean",
+  "leakage_strict": false
+}
